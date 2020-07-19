@@ -36,6 +36,6 @@ app.use("/api", routes());
 
 app.listen(app.get("port"), () => {
 
-  console.log(colors.blue(`Server on port: ${PORT}`));
+  console.log(colors.green(`Server on port: ${PORT}`));
 
 });

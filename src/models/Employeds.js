@@ -15,6 +15,9 @@ const employedSchema = new Schema({
     trim: true,
     required: "Email is required",
   },
+  phone: {
+    type: Number
+  }
 },
 {
   timestamps: true
